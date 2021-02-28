@@ -18,13 +18,15 @@ option go_package = ".;protobuf";
 package protobuf;
 
 service MicroServ {
-  rpc DoJob(ServRequest) returns (ServReply) {}
+  rpc Handle(ServRequest) returns (ServReply) {}
 }
 
 // 微服务请求
 message ServRequest {
-  string label = 1; // 服务校验标签
-  string params = 2; // json格式数据，微服务读取数据并处理
+  string method = 1;
+  string operation = 2; // 服务校验标签
+  string query = 3;
+  string body = 4; // json格式数据，微服务读取数据并处理
 }
 
 // 微服务响应结果

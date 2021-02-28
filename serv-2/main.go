@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	pb "xframework/protobuf"
+	pb "xframework/pb"
 )
 
 const (
@@ -17,8 +17,7 @@ type server struct {
 	pb.UnimplementedMicroServServer
 }
 
-func (s *server) DoJob(ctx context.Context, in *pb.ServRequest) (*pb.ServReply, error) {
-	log.Printf("Label: %v, Params: %v", in.GetLabel(), in.GetParams())
+func (s *server) Handle(ctx context.Context, in *pb.ServRequest) (*pb.ServReply, error) {
 	return &pb.ServReply{Response: "done job by serv-2."}, nil
 }
 
