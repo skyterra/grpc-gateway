@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fcb3e4-16dd-40c1-8697-31e78c65f04b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf/micro-serv.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf/micro-serv.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/micro-serv.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serv-1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/serv-1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-1/serv-1" beforeDir="false" afterPath="$PROJECT_DIR$/serv-1/serv-1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serv-2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/serv-2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/app/api/hello/hello.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/app/api/microserv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/app/dao/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/app/model/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/app/service/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/boot/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/boot/boot.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/config/config.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/docker/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/document/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/i18n/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/packed/packed.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/html/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/plugin/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/resource/css/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/resource/image/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/resource/js/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/router/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/router/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/template/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/web-server" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

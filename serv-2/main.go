@@ -22,6 +22,7 @@ func (s *server) Handle(ctx context.Context, in *pb.ServRequest) (*pb.ServReply,
 }
 
 func main() {
+	log.Println("serv-2 start")
 	lis, err := net.Listen("tcp", port)
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
